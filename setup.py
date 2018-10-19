@@ -9,6 +9,6 @@ setup(name='pixel2mesh',
 	url='http://bigvid.fudan.edu.cn/pixel2mesh',
 	download_url='https://github.com/nywang16/Pixel2Mesh',
 	license='MIT',
-	install_requires=['numpy', 'tensorflow', 'tflearn', 'opencv-python'],
+	install_requires=['numpy', 'tflearn', 'opencv-python'],
 	package_data={'pixel2mesh': ['README.md']},
 	packages=find_packages())
